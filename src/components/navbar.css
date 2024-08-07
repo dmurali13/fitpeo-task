@@ -1,0 +1,43 @@
+@media (max-width: 426px) {
+    .p-0{
+      padding: 0px !important;
+    }
+    .border-0{
+       border-radius: 0px !important;}
+  
+  }
+  .placeholder-white::placeholder {
+    color: white;
+  }
+  .icon-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #6c757d; /* Bootstrap's secondary color */
+    transition: background-color 0.3s ease;
+  }
+  
+  .icon-wrapper:hover {
+    background-color: #5a6268; /* Darken the secondary color slightly */
+  }
+  
+  .icon {
+    font-size: 20px;
+    color: white;
+  }
+  
+  .custom-toggle {
+    border: none;
+    color: white; /* White color for the toggle button */
+  }
+  
+  /* Ensure flex-row on toggle collapse */
+  @media (max-width: 767px) {
+    .navbar-collapse {
+      flex-direction: row !important;
+    }
+  }
+  

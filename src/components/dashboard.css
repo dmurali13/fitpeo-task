@@ -1,0 +1,48 @@
+.custom-bg {
+    background-color: #27223c; /* Replace with your desired color */
+  }
+
+
+/* Progress Bar */
+/* .container {
+    top: 30%;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 100%;
+} */
+
+.ui-widgets {
+    position: relative;
+  
+  width: 40%;
+    padding-bottom: 29%; /* For a responsive square */
+    border: 1.2rem solid rgb(133, 57, 214);
+    box-shadow: inset 0 0 7px grey;
+    border-left-color: rgb(133, 57, 214);
+    border-top-color: rgb(133, 57, 214);
+    border-right-color: rgb(133, 57, 214);
+    border-bottom-color: white;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.curser{
+    cursor: pointer;
+}
+.max{
+    max-width: 100%;
+}
+
+.product{
+    height:40%;
+}
+.logo {
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.logo:hover {
+    color: rgb(112, 29, 171);
+}
